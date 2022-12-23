@@ -1,6 +1,16 @@
-{
-				"code" = "admin";
-},
-{
-				"code" = "mod";
-},
+[
+  {
+    "id": "100001",
+    "email": "helloworld@gmail.com",
+    "password": "helloworld",
+    "accountType": "Chequing",
+    "accountBalance": 0
+  },
+  {
+    "id": "100002",
+    "email": "john@beatles.uk",
+    "password": "lennon",
+    "accountType": "Savings",
+    "accountBalance": 0
+  }
+]
