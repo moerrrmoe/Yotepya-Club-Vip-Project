@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": "100001",
     "email": "helloworld@gmail.com",
     "password": "helloworld",
@@ -13,4 +12,3 @@
     "accountType": "Savings",
     "accountBalance": 0
   }
-]
