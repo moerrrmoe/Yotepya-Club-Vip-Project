@@ -1,12 +1,6 @@
-[{ 
-    "id" : "5",
-    "name" : "Jemmy overy",
-    "data" : "jj",
-    "link" : "http:...",
-},
 { 
-    "id" : "6",
-    "name" : "John Smith",
-    "data" : "gg",
+    "id" : 5,
+    "name" : "Jemmy overy",
+    "data" : {...},
     "link" : "http:...",
-}]
+}
