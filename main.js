@@ -1,8 +1,36 @@
-var arr = [{username: 'Jon', genrePref: 'rock'},{username: 'Lucy', genrePref: 'pop'},{username: 'Mike', genrePref: 'rock'},{username: 'Luke', genrePref: 'house'},{username: 'James', genrePref: 'house'},{username: 'Dave', genrePref: 'bass'},{username: 'Sarah', genrePref: 'country'},{username: 'Natalie', genrePref: 'bass'}];
+var arr = [
+				{
+								code: "adpw",
+								exp: "7/13/2021"
+				},
+				{
+								code:"modpw",
+								exp: "11/23/2023"
+				},
+				{
+								code:"user",
+								exp: "11/23/2023"
+				}
+]
 	
-	var text = "<table border ='1'><tr><th>Username</th><th>genrePref</th></tr>"
-	for (var i=0;i<arr.length;i++){
-     text+="<tr><td>"+arr[i].username+"</td><td>"+arr[i].genrePref+"</td></tr>"				
-	}
-	text+="</table>";
-    document.write(text);
+	function loginFunction () {
+ var today= new Date();
+ var ok=0;
+ var code = document.getElementById("myText1").value;
+
+        for(i = 0; i < arr.length; i++){
+            if(code == arr[i].code && today > new Date(arr[i].exp)){
+                var ok=1;
+            }
+        }
+        if(ok == 1){
+        				swal({title:"မင်္ဂလာပါ", text:"VIPအသုံးပြုသူခင်ဗျာ။", icon:"success"}).then((result) => {
+  if (result) {
+    window.location = "file:///storage/emulated/0/Download/zapya/misc/index.html"
+  }
+})
+        }
+        if(ok == 0){
+ 												swal({title: "Error", text:"codeမှားယွင်း(သို့မဟုတ်)သက်တမ်းကုန်နေပါသည်", icon: "warning"})
+ 								}    
+}
