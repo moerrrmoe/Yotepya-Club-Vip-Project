@@ -4,29 +4,12 @@ var arr = [
 								exp: "7/13/2021"
 				},
 				{
-								code:"modpw",
-								exp: "11/23/2023"
+								code:"7b631145fc6d0c9a051c727a48a09370",
+								exp: "11/23/2021"
 				},
 				{
 								code:"user",
-								exp: "11/23/2023"
+								exp: "11/23/2021"
 				}
 ]
 
-Array.prototype.getIndexOf = function(el) {
-
-  var ar = this;
-
-  for (var i=0; i<ar.length; i++){
-     console.log(ar[i].name);
-     if(ar[i].name==el){
-       return i;
-     }
-     
-  }
-  
-  return -1;
-
-}
-
-alert(arr.getIndexOf("user"));
