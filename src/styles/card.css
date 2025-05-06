@@ -1,0 +1,23 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 4px ;
+    margin-bottom: 4px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.upper-info{
+    color: black;
+}
+
+.poster{
+    width: 100%;
+}
+
+.lower-info{
+    color: black;
+}

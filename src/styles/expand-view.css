@@ -1,0 +1,10 @@
+.cards-container-expand{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+}
+
+.title{
+    color: black;
+}

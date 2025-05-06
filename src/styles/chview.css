@@ -1,0 +1,36 @@
+.nextBtn{
+    position: fixed;
+    right: 0; /* Align to the left side */
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%);     /* Adjust for perfect centering */
+    padding: 10px 20px;    
+        background-color: #007bff;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;        
+}
+
+.prevBtn{
+    position: fixed;
+    left: 0; /* Align to the left side */
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%);     /* Adjust for perfect centering */
+    padding: 10px 20px;    
+        background-color: #007bff;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;        
+}
+
+.titleContainer{
+    text-align: center;
+    position: fixed;
+    background-color: rgba(2, 139, 251, 0.7);
+    color: azure;
+    
+    padding: 5px;
+    left: 43%;
+    top: 70px;
+}
